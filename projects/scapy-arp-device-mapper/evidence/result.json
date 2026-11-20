@@ -1,0 +1,47 @@
+{
+    "end_utc": "2026-11-03T11:12:26.881307+00:00",
+    "hosts": [
+        {
+            "ip": "172.28.70.3",
+            "observations": [
+                {
+                    "count": 2,
+                    "first_seen": 1793704340.778589,
+                    "ip": "172.28.70.3",
+                    "last_seen": 1793704342.3034265,
+                    "mac": "3a:93:eb:5a:4f:db"
+                }
+            ],
+            "status": "observed"
+        },
+        {
+            "ip": "172.28.70.10",
+            "observations": [
+                {
+                    "count": 2,
+                    "first_seen": 1793704343.833177,
+                    "ip": "172.28.70.10",
+                    "last_seen": 1793704345.3592472,
+                    "mac": "b6:00:f2:1c:6d:82"
+                }
+            ],
+            "status": "observed"
+        }
+    ],
+    "option": "device-map",
+    "parameters": {
+        "attempts": 2,
+        "interface": "eth0",
+        "network": "172.28.70.0/28",
+        "rate": 20,
+        "targets": [
+            "172.28.70.3",
+            "172.28.70.10"
+        ],
+        "timeout": 1.5
+    },
+    "scope_id": "wqe7002-a1-standard-device-map-v1",
+    "start_utc": "2026-11-03T11:12:20.773212+00:00",
+    "tool": "device_mapper",
+    "version": "0.1"
+}
